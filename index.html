@@ -6,7 +6,7 @@
 		<style type="text/css">
 
 		</style>
-	<script type="text/javascript" src="code.js"></script><meta http-equiv="x-dns-prefetch-control" content="off"/></head>
+	<script type="text/javascript" src="http://assets.tumblr.com/assets/scripts/tumblelog.js?ca38cd0d482a7c8ce8f713be56af9a07"></script><meta http-equiv="x-dns-prefetch-control" content="off"/></head>
 	<body>
 
 		<script type="text/javascript">
@@ -24,6 +24,16 @@
 		</script>
 
 		<script type="text/javascript">
+
+			var imageWidthHalf, imageHeightHalf;
+
+			var canvas = document.createElement( 'canvas' );
+			canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+			canvas.style.display = 'block';
+			document.body.appendChild( canvas );
+
+			var context = canvas.getContext( '2d' );
 
 			var image = document.createElement( 'img' );
 
